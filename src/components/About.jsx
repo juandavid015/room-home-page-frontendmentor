@@ -4,7 +4,7 @@ export default function About () {
         <div className="w-full h-full overflow-hidden
         grid lg:grid-cols-aboutLayout lg:grid-rows-1 
         sm:grid-cols-tabletAboutLayout sm:grid-rows-tabletAboutLayout
-        grid-rows-mobileAboutLayout grid-cols-1">
+        grid-rows-mobileAboutLayout grid-cols-1" id='about'>
             <div className="min-w-0 sm:order-1 sm:order-2 order-1">
                 <img className="h-full w-full object-cover" alt="furniture" src="/images/image-about-dark.jpg"/>
             </div>

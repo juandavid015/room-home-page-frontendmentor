@@ -31,19 +31,27 @@ export default function NavBar () {
                     <li className="relative cursor-pointer after:content-['']
                     after:absolute after:bottom-[-3px] after:left-[25%] after:w-[60%] 
                     after:lg:bg-primary-white after:bg-primary-very-dark-gray 
-                    hover:after:h-[2px] hover:after:animate-expand-right">home</li>
+                    hover:after:h-[2px] hover:after:animate-expand-right">
+                        <a href="#home">home</a>
+                    </li>
                     <li className="relative cursor-pointer after:content-['']
                     after:absolute after:bottom-[-3px] after:left-[25%] after:w-[60%] 
                     after:lg:bg-primary-white after:bg-primary-very-dark-gray 
-                    hover:after:h-[2px] hover:after:animate-expand-right">shop</li>
+                    hover:after:h-[2px] hover:after:animate-expand-right">
+                        shop
+                    </li>
                     <li className="relative cursor-pointer after:content-['']
                     after:absolute after:bottom-[-3px] after:left-[25%] after:w-[60%] 
                     after:lg:bg-primary-white after:bg-primary-very-dark-gray 
-                    hover:after:h-[2px] hover:after:animate-expand-right">about</li>
+                    hover:after:h-[2px] hover:after:animate-expand-right">
+                         <a href="#about">about</a>
+                    </li>
                     <li className="relative cursor-pointer after:content-['']
                     after:absolute after:bottom-[-3px] after:left-[25%] after:w-[60%] 
                     after:lg:bg-primary-white after:bg-primary-very-dark-gray 
-                    hover:after:h-[2px] hover:after:animate-expand-right">contact</li>
+                    hover:after:h-[2px] hover:after:animate-expand-right">
+                        contact
+                    </li>
                         
                 </ul>
             </nav>

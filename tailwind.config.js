@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}",],
+  content: ["./src/**/*.{js,jsx,ts,tsx}","./public/*.{html,js}"],
   theme: {
     extend: {
       screens: {
@@ -42,7 +42,7 @@ module.exports = {
         'aboutLayout': 
         `minmax(auto, 266px) auto minmax(auto, 266px)`,
         'tabletAboutLayout': 
-        `auto 266px`,
+        `min-content 266px`,
         'mobileAboutLayout': 
         `minmax(20%, 266px) auto minmax(20%, 266px)`
         
