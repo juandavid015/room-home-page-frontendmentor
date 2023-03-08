@@ -21,13 +21,13 @@ function App() {
 
   return (
     // !isLoading &&
-    <div className="App md:text-base text-sm font-league font-medium min-h-screen box-border
+    <main className="App md:text-base text-sm font-league font-medium min-h-screen box-border
     grid lg:grid-cols-homePageLayout lg:grid-rows-homePageLayout md:grid-rows-[100vh_100vh]
     grid-cols-1 grid-rows-homePageLayoutMobile" >
       <HeroHeader />
       <About />
       <Attribution />
-    </div>
+    </main>
   );
 }
 
