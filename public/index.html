@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,10 +26,49 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Frontend Mentor | Room homepage</title>
+    <style>
+      * {
+        margin:  0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        font-family: 'League Spartan', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height:100vh;
+        min-width:100vw;
+
+      }
+      .brand-name {
+        width: fit-content;
+        font-size: 28px;
+        font-weight:600;
+        border: 1px solid transparent;
+        padding: .75em;
+        animation: loaderBorder 1s linear infinite alternate-reverse;
+      }
+     
+    
+      @keyframes loaderBorder {
+          0% { border-left-color:rgba(77, 56, 0, 0.774) ;}
+          25% { border-top-color:rgba(77, 56, 0, 0.774) ;}
+          50%{ border-right-color:rgba(77, 56, 0, 0.774) ;}
+          100%{ border-bottom-color:rgba(77, 56, 0, 0.774) ;}
+      }
+
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div class="container">
+      <span class="brand-name">
+                room
+      </span>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
