@@ -29,7 +29,7 @@ export default function HeroHeader () {
     return (
         <header className="grid md:grid-cols-headerLayout lg:grid-rows-headerLayout grid-cols-1 grid-rows-mobileHeaderLayout
         md:grid-rows-tabletHeaderLayout 
-         overflow-hidden" id="home" role={'banner'}>    
+         overflow-hidden" id="home" >    
             <div className={`bg-no-repeat bg-cover bg-center relative max-w-[840px] w-full
             ${headerContent[indexSlider].mobileImage} ${headerContent[indexSlider].desktopImage}`}
        >
